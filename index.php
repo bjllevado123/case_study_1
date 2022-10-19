@@ -28,11 +28,6 @@
                 
             </div>
 
-            
-            
-            
-            
-
             <h1>About me</h1>
             <p>
                 I value teamwork and by extension communication in the team and
