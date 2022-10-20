@@ -8,13 +8,11 @@
 </head>
 <body>
     <div class="wrapper">
-        
-        <?php
-            require 'header.php';
-        ?>
+        <div class="banner">
+            <?php
+                require 'header.php';
+            ?>
 
-        <section>
-            
             <div class="profile">
 
                 <div class="profile_pic">
@@ -27,6 +25,11 @@
                 </div>
                 
             </div>
+        </div>
+        
+       
+
+        <section>
 
             <h1>About me</h1>
             <p>
