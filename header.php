@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/stylesheet.css?version=v9">
+    <link rel="stylesheet" href="assets/css/stylesheet.css?version=10">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 </head>
 <body>
