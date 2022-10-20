@@ -50,7 +50,14 @@
                 <li>Thesis title: “Intel App: An Android-based Intel Information System of BSIT Students in EVSU Main Campus”</li>
             </ul>
         </section>
+
+        <?php
+            require 'footer.php';
+        ?>
+        
     </div>
+
+    
     
 </body>
 </html>

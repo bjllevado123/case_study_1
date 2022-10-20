@@ -33,6 +33,11 @@
                 <li>Certification of participation for "In the World of Work"</li>
             </ul>
         </section>
+
+        <?php
+            require 'footer.php';
+        ?>
+        
     </div>
     
 </body>

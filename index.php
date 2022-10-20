@@ -8,26 +8,10 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="banner">
-            <?php
-                require 'header.php';
-            ?>
-
-            <div class="profile">
-
-                <div class="profile_pic">
-                    <img src="assets/images/profile.png" alt="my-profile">
-                </div>
-                
-
-                <div class="my_name"> 
-                    <p>Brian Julius L. Llevado</p> 
-                </div>
-                
-            </div>
-        </div>
         
-       
+        <?php
+            require 'header.php';
+        ?>
 
         <section>
 
@@ -60,6 +44,12 @@
                 <li>open-mindedness</li>
             </ul>
         </section>
+
+        <?php
+            require 'footer.php';
+        ?>
+        
+
     </div>
     
 </body>

@@ -1,10 +1,21 @@
+body{
+    margin: 0px;
+    /* background-color: antiquewhite !important; */
+}
 
 .wrapper{
     width: 90vw;
     height: auto;
     margin: 0 auto;
     border: 3px black solid;
-    padding: 30px;
+}
+
+.hero_banner{
+    background-image: url('../images/hero_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color:beige; */
 }
 
 nav{
@@ -12,11 +23,21 @@ nav{
     height: auto;
     box-sizing: border-box;
     border: 3px blue solid;
-    s
+    
 }
 
-nav li{
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li{
+    padding: 20px;
     display: inline-block;
+}
+
+nav ul li a{
+    color: black;
 }
 
 .profile{
@@ -28,8 +49,8 @@ nav li{
 }
 
 .profile_pic{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 20px;
 }
 
@@ -47,4 +68,12 @@ nav li{
 
     font-size: 50px;
     text-transform: uppercase;
+}
+
+section{
+    padding: 30px;
+}
+
+footer li{
+    display: inline-block;
 }
