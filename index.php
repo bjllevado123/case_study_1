@@ -14,15 +14,16 @@
         ?>
 
         <section>
-
-            
-            
-            <div class="container text-center mb-5">
-                <h1>About me</h1>
-                <div class="row mb-3 p-4 tech_skills_con">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-md-12">
-                        <p>
+            <div class="container p-5">
+                <div class="row align-items-center welcome_wrap" style="padding: 20px; border-radius: 15px;">
+                    <div class="col-md-4 text-end" style="box-sizing: border-box;">
+                        <div class="welcome_con"><p class="welcome_p_1">WELCOME</p></div>
+                        <div class="welcome_con"><p class="welcome_p_2">TO</p></div>
+                        <div class="welcome_con"><p class="welcome_p_2">MY</p></div>
+                        <div class="welcome_con"><p class="welcome_p_2">WEBSITE</p></div>
+                    </div>
+                    <div class="col-md-8 text-justify">
+                        <p class="hello">
                             Hello, I'm Brian Julius L. Llevado, 22 years old and I am born on July 14, 2000. 
                             I value teamwork and by extension communication in the team and
                             I am willing to adapt to the situation and environment and find solutions
@@ -31,15 +32,14 @@
                             lack. My academic pursuit has helped me gain skills in HTML, CSS,
                             PHP, JavaScript and MySQL.
                         </p>
-                        </div> 
-                    </div>
+                    </div> 
                 </div>
             </div>
 
             
-            <div class="container text-center mb-5">
+            <div class="container text-center p-5 mb-5">
                 <h1>Technical Skills</h1>
-                <div class="row mb-3 p-4 tech_skills_con text-start">
+                <div class="row tech_skills_con text-start mb-5">
                     <h2>Languages</h2>
                     <div class="row justify-content-center text-center">
                         <div class="col-md-3">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 
-                <div class="row mb-3 p-4 tech_skills_con text-start">
+                <div class="row tech_skills_con text-end mb-5">
                     <h2>Tools & Frameworks</h2>
                     <div class="row justify-content-center text-center">
                         <div class="col-md-3">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 
-                <div class="row mb-3 p-4 tech_skills_con text-start">
+                <div class="row tech_skills_con text-start mb-5">
                     <h2>Database</h2>
                     <div class="row justify-content-center text-center">
                         <div class="col-md-3">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="row mb-3 p-4 tech_skills_con text-start">
+                <div class="row tech_skills_con text-end mb-5">
                     <h2>Microsoft Office</h2>
                     <div class="row justify-content-center text-center">
                         <div class="col-md-3">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="row mb-3 p-4 tech_skills_con text-start">
+                <div class="row tech_skills_con text-start mb-5">
                     <h2>Adobe Creative Suite</h2>
                     <div class="row justify-content-center text-center">
                         <div class="col-md-3">
@@ -112,9 +112,9 @@
            
 
             
-            <div class="container text-center mb-5">
+            <div class="container-fluid text-center mb-5">
                 <h1>Soft Skills</h1>
-                <div class="row mb-3 p-4 tech_skills_con">
+                <div class="row mb-3 p-4" style="background-color: #DE354C;">
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4">
                             <h3 class="mb-3">Teamwork</h3>
