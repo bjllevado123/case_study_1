@@ -14,7 +14,7 @@
         ?>
 
         <section>
-             <div class="container text-center mb-5">
+             <div class="container text-center p-5 mt-5 mb-5" style="background: #ececec; border-radius: 20px;">
                 <h1>Education</h1>
                 
                 <div class="row mb-3 p-4 text-start">

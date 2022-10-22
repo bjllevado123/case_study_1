@@ -46,7 +46,7 @@ p, li{
     width: 300px;
     height: 300px;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: #DE354C;
     border-radius: 100%;
 }
 
@@ -114,7 +114,7 @@ footer li{
     display: inline-block;
 }
 
-.tech_skills_con{
+.tech_skills_con, .achieve_con{
     background-color: #DE354C;
     border-radius: 20px;
     box-shadow: 8px 12px 0px #932432;
@@ -147,15 +147,10 @@ footer li{
     transition: 0.3s;
 }
 
-.tech_skills_con:hover{
+.tech_skills_con:hover, .achieve_con:hover{
     box-shadow: 8px 12px 0px #ffffe0;
     transition: 0.3s;
 } 
-
-/* .tech_skills_con:hover h2{
-    color: #ffffe0;
-    transition: 0.3s;    
-} */
 
 
 .tech_skill_logo{
@@ -228,6 +223,34 @@ footer li{
     border-bottom-right-radius: 20px;
 }
 
+.educ_con{
+    transition: 0.3s;
+}
+
+.educ_con:hover .arrow_left_img{
+    transform: rotate(5deg);
+    transition: 0.3s;
+}
+
+.educ_con:hover .arrow_right_img{
+    transform: scaleX(-1) rotate(5deg);
+    transition: 0.3s;
+}
+
+.arrow_left_img{
+    width: 200px; 
+    height: 150px;
+    transform: rotate(10deg);
+    transition: 0.3s;
+}
+
+.arrow_right_img{
+    width: 200px; 
+    height: 150px; 
+    transform: scaleX(-1) rotate(10deg);
+    transition: 0.3s;
+}
+
 .welcome_con{
     border-right: solid #ceb92c 2.5px; 
 }
@@ -285,34 +308,6 @@ footer li{
     color: #DE354C;
     font-weight: bold;
     transform: scale(1.1);
-}
-
-.arrow_left_img{
-    width: 200px; 
-    height: 150px;
-    transform: rotate(10deg);
-    transition: 0.3s;
-}
-
-.arrow_right_img{
-    width: 200px; 
-    height: 150px; 
-    transform: scaleX(-1) rotate(10deg);
-    transition: 0.3s;
-}
-
-.educ_con{
-    transition: 0.3s;
-}
-
-.educ_con:hover .arrow_left_img{
-    transform: rotate(5deg);
-    transition: 0.3s;
-}
-
-.educ_con:hover .arrow_right_img{
-    transform: scaleX(-1) rotate(5deg);
-    transition: 0.3s;
 }
 
 
